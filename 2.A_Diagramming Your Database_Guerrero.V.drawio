@@ -28,7 +28,7 @@
             <mxRectangle width="40" height="152" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HVbI2L4Hs5HE3-MBSkn4-16" value="&lt;div&gt;&lt;b&gt;Customer_ID&lt;/b&gt; &lt;b&gt;(FK) - INT NOT NULL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Employee_ID (FK)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Amount_Paid - DECIMAL (5,2)&lt;div&gt;&lt;br&gt;&lt;div&gt;Payment_Method - VARCHAR(25)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date_Time - DATETIME&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="HVbI2L4Hs5HE3-MBSkn4-15" vertex="1">
+        <mxCell id="HVbI2L4Hs5HE3-MBSkn4-16" value="&lt;div&gt;&lt;b&gt;Customer_ID&lt;/b&gt; &lt;b&gt;(FK) - INT NOT NULL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Employee_ID (FK) - INT NOT NULL&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Amount_Paid - DECIMAL (5,2)&lt;div&gt;&lt;br&gt;&lt;div&gt;Payment_Method - VARCHAR(25)&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="HVbI2L4Hs5HE3-MBSkn4-15" vertex="1">
           <mxGeometry x="40" width="240" height="152" as="geometry">
             <mxRectangle width="240" height="152" as="alternateBounds" />
           </mxGeometry>
@@ -86,16 +86,16 @@
             <mxRectangle width="48" height="207" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pJuaIllPGdODmSYGomI3-23" value="&lt;div&gt;Title&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;First_Name&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last_Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Phone_Number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email_Address&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hire_Date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Salary&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-21">
+        <mxCell id="pJuaIllPGdODmSYGomI3-23" value="&lt;div&gt;Title - VARCHAR (25)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;NOT NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;First_Name - VARCHAR(50) NOT NULL&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last_Name&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;- VARCHAR(50) NOT NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Phone_Number&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;- VARCHAR(50) NOT NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email_Address&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- VARCHAR(50) NOT NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hire_Date&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- VARCHAR(50) NOT NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Monthly_Salary&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;- DECIMAL (7,2) NOT NULL&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-21">
           <mxGeometry x="48" width="242" height="207" as="geometry">
             <mxRectangle width="242" height="207" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-24" value="Prodcuts" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="131" y="60" width="279" height="223" as="geometry" />
+          <mxGeometry x="120" y="60" width="289" height="223" as="geometry" />
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pJuaIllPGdODmSYGomI3-24">
-          <mxGeometry y="30" width="279" height="40" as="geometry" />
+          <mxGeometry y="30" width="289" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-26" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1" vertex="1" parent="pJuaIllPGdODmSYGomI3-25">
           <mxGeometry width="39" height="40" as="geometry">
@@ -103,21 +103,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-27" value="Product_ID - INT AUTO_INCREMENT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontStyle=1" vertex="1" parent="pJuaIllPGdODmSYGomI3-25">
-          <mxGeometry x="39" width="240" height="40" as="geometry">
-            <mxRectangle width="240" height="40" as="alternateBounds" />
+          <mxGeometry x="39" width="250" height="40" as="geometry">
+            <mxRectangle width="250" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pJuaIllPGdODmSYGomI3-24">
-          <mxGeometry y="70" width="279" height="153" as="geometry" />
+          <mxGeometry y="70" width="289" height="153" as="geometry" />
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-29" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-28">
           <mxGeometry width="39" height="153" as="geometry">
             <mxRectangle width="39" height="153" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pJuaIllPGdODmSYGomI3-30" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Product_Name - VARCHAR (100)&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Type - VARCHAR (50)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantity - INT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Restock_Date - DATE&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-28">
-          <mxGeometry x="39" width="240" height="153" as="geometry">
-            <mxRectangle width="240" height="153" as="alternateBounds" />
+        <mxCell id="pJuaIllPGdODmSYGomI3-30" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Product_Name - VARCHAR (100) NOT NULL&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Type - VARCHAR (50)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantity - INT NOT NULL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Restock_Date - DATE NOT NULL&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-28">
+          <mxGeometry x="39" width="250" height="153" as="geometry">
+            <mxRectangle width="250" height="153" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pJuaIllPGdODmSYGomI3-31" value="Reservations" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
@@ -144,7 +144,7 @@
             <mxRectangle width="35" height="118" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pJuaIllPGdODmSYGomI3-37" value="&lt;div&gt;&lt;b&gt;Order_ID&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;(FK) - INT NOT NULL&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Table_Number - INT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date_Time - DATETIME&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-35">
+        <mxCell id="pJuaIllPGdODmSYGomI3-37" value="&lt;div&gt;&lt;b&gt;Order_ID&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;(FK) - INT NOT NULL&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Table_Number - INT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Date_Time - DATETIME NOT NULL&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="pJuaIllPGdODmSYGomI3-35">
           <mxGeometry x="35" width="245" height="118" as="geometry">
             <mxRectangle width="245" height="118" as="alternateBounds" />
           </mxGeometry>
