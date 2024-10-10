@@ -4,7 +4,7 @@ CREATE DATABASE nessasburgershack;
 
 USE nessasburgershack;
 
-## Creating my Customers table
+# Creating my Customers table
 
 CREATE TABLE Customers (
   Customer_ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -17,7 +17,7 @@ CREATE TABLE Customers (
   INDEX Customer_Contact (Phone_Number, Email_Address)
 );
 
-## Creating my Employees table
+# Creating my Employees table
 
 CREATE TABLE Employees (
   Employee_ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -33,7 +33,7 @@ CREATE TABLE Employees (
   INDEX Employee_Contact (Phone_Number, Email_Address)
   );
 
-## Creating my orders table 
+# Creating my orders table 
 
 CREATE TABLE Orders (
 Order_ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -45,7 +45,7 @@ FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID),
 FOREIGN KEY (Employee_ID) REFERENCES Employees(Employee_ID)
 );
 
-## Creating my reservations table
+# Creating my reservations table
 
 CREATE TABLE Reservations (
 Reservation_ID INT PRIMARY KEY AUTO_INCREMENT,

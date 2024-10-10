@@ -2,7 +2,7 @@
 
 USE nessasburgershack;
 
-## Inserting values into customer table
+# Inserting values into customer table
 
 INSERT INTO customers
 VALUES 
@@ -11,7 +11,7 @@ VALUES
 (null, 'Jack', 'Williams', '555-8765', 'jack@email.com'),
 (null, 'Jessica', 'Brown', '555-4321', 'jessica@email.com');
 
-## Inserting values into employees tables
+# Inserting values into employees tables
 
 INSERT INTO employees
 VALUES 
@@ -20,7 +20,7 @@ VALUES
 (null, 'Waitress','Jen', 'Villa', '987-1234', 'jenwork@email.com', '2024-01-01', 2500.00),
 (null, 'Host','Julius', 'Jones', '321-4758', 'juliuswork@email.com', '2024-01-01', 2200.00);
 
-## Inserting values into orders table
+# Inserting values into orders table
 
 INSERT INTO orders 
 VALUES
@@ -29,7 +29,7 @@ VALUES
 (null, 3, 2, 50.75, 'Mastercard'),
 (null, 4, 3, 65.50, 'Discover');
 
-## Inserting values into reservations table
+# Inserting values into reservations table
 
 INSERT INTO reservations
 VALUES
