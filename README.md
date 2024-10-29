@@ -1,3 +1,3 @@
 # W2_Exercises
 
-Exercises through MySQL related to Week 2 exercises for Data Analyst Academy
+Exercises completed through MySQL related to Week 2 workbook for Data Analyst Academy
